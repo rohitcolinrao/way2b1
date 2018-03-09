@@ -1,0 +1,94 @@
+#restaurant-search header{
+  background-color: #2f146f;
+  color: #fff;
+  font-size: 1.2em;
+  padding: .5em .25em .25em .5em;
+}
+
+.draw-button{
+  background-image: url("/images/drawIcon.png");
+  background-size: 30px 30px;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  height: 30px;
+  margin-bottom: 10px;
+  width: 30px;
+}
+
+.trash-button{
+  display: block;
+  background-image: url("/images/trashIcon.png");
+  background-size: 30px 30px;
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  border: 0;
+}
+
+.search-form{
+  background-color: #d6cfe2;
+  padding: 1em 1.5em;
+}
+
+.search-form .form-control{
+  border-radius: 0;
+  border-top: 0;
+  border-right: 0px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.search-form .form-control::placeholder {
+    color: #ddd;
+}
+
+.search-form .search-icon{
+  height: 20px;
+  width: 20px;
+}
+
+.search-form .input-group-text{
+  border: 1px solid #fff;
+  border-top: 0;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.flex-row{
+	display: flex;
+	flex-wrap: wrap;
+  padding: 15px 0;
+}
+
+.flex-row > [class*='col-']{
+  box-shadow: 0px 1px 3px #bbb;
+	display: flex;
+	flex-direction: column;
+  flex-basis: 12rem;
+  margin: 5px 10px;
+  padding: .5em 1em .6em;
+}
+
+.title{
+  color: #5a428d;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.address{
+  color: #877b9e;
+  font-size: .7em;
+}
+
+.latlng{
+  color: #877b9e;
+  font-size: .8em;
+}
+
+.rating{
+  float: right;
+  font-size:1.5em;
+  margin-bottom: -0.5em;
+}
